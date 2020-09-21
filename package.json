@@ -1,0 +1,32 @@
+{
+  "name": "markdown-it-concat-code",
+  "version": "0.0.1",
+  "description": "markdown-it plugin to concatenate code blocks",
+  "keywords": [
+    "markdown-it-plugin"
+  ],
+  "homepage": "http://locahost/",
+  "license": "Unlicense",
+  "author": {
+    "name": "Matthew J. Penwill",
+    "url": "http://localhost/"
+  },
+  "files": [
+    "README.md",
+    "UNLICENSE",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git"
+  },
+  "scripts": {
+    "lint": "standard",
+    "prepublish": "npm test",
+    "test": "npm run lint && node test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "markdown-it": "^10.0.0",
+    "standard": "^14.3.1"
+  }
+}
