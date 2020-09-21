@@ -5,11 +5,11 @@
   "keywords": [
     "markdown-it-plugin"
   ],
-  "homepage": "http://locahost/",
+  "homepage": "https://github.com/matjp/markdown-it-concat-code",
   "license": "Unlicense",
   "author": {
     "name": "Matthew J. Penwill",
-    "url": "http://localhost/"
+    "url": "https://github.com/matjp/markdown-it-concat-code"
   },
   "files": [
     "README.md",
