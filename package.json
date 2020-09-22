@@ -21,7 +21,7 @@
   },
   "scripts": {
     "lint": "standard",
-    "prepublish": "npm test",
+    "prepublishOnly": "npm test",
     "test": "npm run lint && node test"
   },
   "dependencies": {},
