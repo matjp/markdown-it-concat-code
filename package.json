@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-concat-code",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "markdown-it plugin to concatenate code blocks",
   "keywords": [
     "markdown-it-plugin"
