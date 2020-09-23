@@ -4,7 +4,7 @@
   "description": "Markdown-it plugin to concatenate code blocks",
   "main": "index.js",
   "keywords": [
-    "markdown-it markdown-it-plugin"
+    "markdown markdown-it markdown-it-plugin"
   ],
   "homepage": "https://github.com/matjp/markdown-it-concat-code",
   "license": "Unlicense",
