@@ -1,7 +1,8 @@
 {
   "name": "markdown-it-concat-code",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "markdown-it plugin to concatenate code blocks",
+  "main": "index.js",
   "keywords": [
     "markdown-it-plugin"
   ],
@@ -17,7 +18,11 @@
     "index.js"
   ],
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/matjp/markdown-it-concat-code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matjp/markdown-it-concat-code/issues"
   },
   "scripts": {
     "lint": "standard",
