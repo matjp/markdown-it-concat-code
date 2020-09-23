@@ -1,10 +1,10 @@
 {
   "name": "markdown-it-concat-code",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Markdown-it plugin to concatenate code blocks",
   "main": "index.js",
   "keywords": [
-    "markdown-it-plugin"
+    "markdown-it markdown-it-plugin"
   ],
   "homepage": "https://github.com/matjp/markdown-it-concat-code",
   "license": "Unlicense",
@@ -15,7 +15,8 @@
   "files": [
     "README.md",
     "UNLICENSE",
-    "index.js"
+    "index.js",
+    "test.js",
   ],
   "repository": {
     "type": "git",
