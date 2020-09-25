@@ -1,5 +1,7 @@
 module.exports.default = function (md, opts, src) {
   function scanForCode (state) {
+    const separator = opts.separator ? opts.separator : '\n'
+    
     var i, token
 
     src.value = ''
@@ -10,7 +12,7 @@ module.exports.default = function (md, opts, src) {
         if (opts.lang && (opts.lang !== '') && (opts.lang !== token.info)) {
           continue
         }
-        src.value += token.content + '\n'
+        src.value += token.content + separator
       }
     }
   }
