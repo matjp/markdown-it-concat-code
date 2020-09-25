@@ -16,6 +16,7 @@ The `opts` object can contain:
 Name       |  Type  | Description
 -----------|--------|----------------------------------------------------------------------------
 `lang`     | string | Only include code blocks specifying `lang' as the language. If not specified, null or empty string then return all fenced code blocks.
+`separator`| string | Append this string after each code block included in output. Defaults to '\n'.
 
 `src` is an object whose value will be filled with the concatenated code blocks.
 
