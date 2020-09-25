@@ -1,7 +1,7 @@
 module.exports.default = function (md, opts, src) {
   function scanForCode (state) {
     const separator = opts.separator ? opts.separator : '\n'
-    
+
     var i, token
 
     src.value = ''
