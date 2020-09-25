@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-concat-code",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Markdown-it plugin to concatenate code blocks",
   "main": "index.js",
   "keywords": [
